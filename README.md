@@ -31,7 +31,7 @@ Follow the steps below to run the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/task-management-dashboard.git
+   [git clone https://github.com/your-username/task-management-dashboard.git]
    cd task-management-dashboard
 Install dependencies:
 
