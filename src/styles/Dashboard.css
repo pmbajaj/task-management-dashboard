@@ -1,0 +1,58 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .analytics-card, .sales-card, .support-card {
+    text-align: center;
+  }
+  
+  .analytics-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .analytics-stats div {
+    text-align: center;
+  }
+  
+  .tracker-percentage {
+    font-size: 2.5rem;
+    color: #673ab7;
+  }
+  
+  .tracker-buttons {
+    margin-top: 15px;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #673ab7;
+    color: white;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: #673ab7;
+    border: 2px solid #673ab7;
+  }
+  

@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.MuiButton-root:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
